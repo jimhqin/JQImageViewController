@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D4FFC5061BEB21EA00EAA1B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFC5051BEB21EA00EAA1B4 /* AppDelegate.swift */; };
-		D4FFC5081BEB21EA00EAA1B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFC5071BEB21EA00EAA1B4 /* ViewController.swift */; };
-		D4FFC50B1BEB21EA00EAA1B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FFC5091BEB21EA00EAA1B4 /* Main.storyboard */; };
+		D4FFC5081BEB21EA00EAA1B4 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFC5071BEB21EA00EAA1B4 /* RootViewController.swift */; };
 		D4FFC50D1BEB21EA00EAA1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4FFC50C1BEB21EA00EAA1B4 /* Assets.xcassets */; };
-		D4FFC5101BEB21EA00EAA1B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FFC50E1BEB21EA00EAA1B4 /* LaunchScreen.storyboard */; };
 		D4FFC51B1BEB21EA00EAA1B4 /* JQImageViewControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFC51A1BEB21EA00EAA1B4 /* JQImageViewControllerDemoTests.swift */; };
 		D4FFC5261BEB21EA00EAA1B4 /* JQImageViewControllerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFC5251BEB21EA00EAA1B4 /* JQImageViewControllerDemoUITests.swift */; };
+		D4FFC5381BEB251900EAA1B4 /* JQImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFC5371BEB251900EAA1B4 /* JQImageViewController.swift */; };
+		D4FFC53A1BEB291B00EAA1B4 /* DemoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFC5391BEB291B00EAA1B4 /* DemoButton.swift */; };
+		D4FFC53C1BEB326200EAA1B4 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFC53B1BEB326200EAA1B4 /* RootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +37,8 @@
 /* Begin PBXFileReference section */
 		D4FFC5021BEB21EA00EAA1B4 /* JQImageViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQImageViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FFC5051BEB21EA00EAA1B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4FFC5071BEB21EA00EAA1B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D4FFC50A1BEB21EA00EAA1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4FFC5071BEB21EA00EAA1B4 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		D4FFC50C1BEB21EA00EAA1B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D4FFC50F1BEB21EA00EAA1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4FFC5111BEB21EA00EAA1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4FFC5161BEB21EA00EAA1B4 /* JQImageViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQImageViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FFC51A1BEB21EA00EAA1B4 /* JQImageViewControllerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQImageViewControllerDemoTests.swift; sourceTree = "<group>"; };
@@ -47,6 +46,9 @@
 		D4FFC5211BEB21EA00EAA1B4 /* JQImageViewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JQImageViewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FFC5251BEB21EA00EAA1B4 /* JQImageViewControllerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JQImageViewControllerDemoUITests.swift; sourceTree = "<group>"; };
 		D4FFC5271BEB21EA00EAA1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4FFC5371BEB251900EAA1B4 /* JQImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQImageViewController.swift; sourceTree = "<group>"; };
+		D4FFC5391BEB291B00EAA1B4 /* DemoButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoButton.swift; sourceTree = "<group>"; };
+		D4FFC53B1BEB326200EAA1B4 /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +100,11 @@
 			isa = PBXGroup;
 			children = (
 				D4FFC5051BEB21EA00EAA1B4 /* AppDelegate.swift */,
-				D4FFC5071BEB21EA00EAA1B4 /* ViewController.swift */,
-				D4FFC5091BEB21EA00EAA1B4 /* Main.storyboard */,
+				D4FFC5071BEB21EA00EAA1B4 /* RootViewController.swift */,
+				D4FFC53B1BEB326200EAA1B4 /* RootView.swift */,
+				D4FFC5391BEB291B00EAA1B4 /* DemoButton.swift */,
+				D4FFC5371BEB251900EAA1B4 /* JQImageViewController.swift */,
 				D4FFC50C1BEB21EA00EAA1B4 /* Assets.xcassets */,
-				D4FFC50E1BEB21EA00EAA1B4 /* LaunchScreen.storyboard */,
 				D4FFC5111BEB21EA00EAA1B4 /* Info.plist */,
 			);
 			path = JQImageViewControllerDemo;
@@ -229,9 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4FFC5101BEB21EA00EAA1B4 /* LaunchScreen.storyboard in Resources */,
 				D4FFC50D1BEB21EA00EAA1B4 /* Assets.xcassets in Resources */,
-				D4FFC50B1BEB21EA00EAA1B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +257,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4FFC5081BEB21EA00EAA1B4 /* ViewController.swift in Sources */,
+				D4FFC53A1BEB291B00EAA1B4 /* DemoButton.swift in Sources */,
+				D4FFC5081BEB21EA00EAA1B4 /* RootViewController.swift in Sources */,
 				D4FFC5061BEB21EA00EAA1B4 /* AppDelegate.swift in Sources */,
+				D4FFC5381BEB251900EAA1B4 /* JQImageViewController.swift in Sources */,
+				D4FFC53C1BEB326200EAA1B4 /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +295,6 @@
 			targetProxy = D4FFC5221BEB21EA00EAA1B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D4FFC5091BEB21EA00EAA1B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D4FFC50A1BEB21EA00EAA1B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D4FFC50E1BEB21EA00EAA1B4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D4FFC50F1BEB21EA00EAA1B4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D4FFC5281BEB21EA00EAA1B4 /* Debug */ = {
@@ -398,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JQImageViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jimqin.JQImageViewControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JQImageViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jimqin.JQImageViewControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

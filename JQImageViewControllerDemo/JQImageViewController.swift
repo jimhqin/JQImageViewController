@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  JQImageViewController.swift
 //  JQImageViewControllerDemo
 //
 //  Created by JQ@Onbeep on 11/4/15.
@@ -8,18 +8,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class JQImageViewController: UIViewController {
+
+    override func loadView() {
+        let contentView = UIView(frame: UIScreen.mainScreen().bounds)
+        contentView.backgroundColor = .clearColor()
+        view = contentView
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
-
